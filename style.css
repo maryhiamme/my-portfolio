@@ -15,7 +15,6 @@ html {
 
 .nav-bar {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   max-width: 1440px;
   margin: 0 auto;
@@ -81,10 +80,7 @@ a:hover {
 .section-one {
   display: flex;
   text-align: center;
-  /* flex-wrap: wrap;
-  justify-content: space-between; */
   max-width: 1200px;
-  /* margin-left: 50px; */
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -107,7 +103,6 @@ a:hover {
 
 .introduction {
   flex: 1;
-  /* min-width: 300px; */
 }
 
 
@@ -140,20 +135,18 @@ a:hover {
 .section {
   flex: 1 1 100px;
   background-color: #ffffff;
-  padding: 1..5rem;
+  padding: 1.rem;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .section {
-  /* padding: 40px 40px; */
   max-width: 700px;
   margin: 40px 30px;
 }
 
 .h2-wrap {
   align-items: center;
-  /* margin-top: 0; */
   color: #333;
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -162,7 +155,7 @@ a:hover {
 .list-section {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 90px;
 }
 
 .section ul {
@@ -203,7 +196,6 @@ a:hover {
 
 .project-card {
   flex: 1;
-  /* padding: 20px; */
   border-radius: 15px;
 }
 
@@ -265,8 +257,6 @@ a:hover {
   color: #333;
 }
 
-
-
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -321,8 +311,6 @@ h2 {
   height: 20px;
 }
 
-
-
 /* footer section */
 
 footer {
@@ -371,14 +359,6 @@ footer {
     display: block;
   }
 }
-
-
-/* @media (max-width: 700px) {
-  .section-wrapper {
-    flex-direction: column;
-    align-items: stretch;
-  }
-} */
 
 @media (max-width: 1200px) {
   .nav-bar {
@@ -439,11 +419,7 @@ footer {
   .h3-text {
    font-size: 18px;
   }
-  /* .intro-p {
-    display: flex;
-    flex-direction: row;
-
-  } */
+ 
 }
 @media (max-width: 375px) {
   .section-wrapper {
